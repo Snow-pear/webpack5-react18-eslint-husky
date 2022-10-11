@@ -1,4 +1,5 @@
 import React, { lazy, Suspense, useState } from 'react'
+const b = 3
 // prefetch
 const PreFetchDemo = lazy(
   () =>
