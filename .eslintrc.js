@@ -8,7 +8,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react/jsx-runtime'
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -20,8 +21,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
-    '@typescript-eslint/no-non-null-assertion': 'off',
-    'react/jsx-uses-react': 2 //解决warning 'React' is defined but never used @typescript-eslint/no-unused-vars
+    '@typescript-eslint/no-non-null-assertion': 'off'
   },
   settings: {
     react: {

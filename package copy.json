@@ -21,7 +21,7 @@
     "src/**/*.{ts,tsx}": [
       "npm run eslint"
     ],
-    "src/**/*.{css,less}": [
+    "src/**/*.{css,less,scss}": [
       "npm run stylelint"
     ]
   },
